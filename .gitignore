@@ -1,0 +1,31 @@
+# === Katalon Studio Generated Files ===
+.gradle/
+bin/
+build/
+Libs/
+Reports/
+output/
+!output/.gitkeep
+
+# === Katalon Project Artifacts ===
+Test Suites/
+Data Files/
+Checkpoints/
+Keywords/
+Test Listeners/
+Plugins/
+
+# === IDE / System Files ===
+.classpath
+.project
+.cache/
+.DS_Store
+Thumbs.db
+
+# === Logs / Temporary ===
+*.log
+*.tmp
+
+# === Katalon Settings (local configs, often contain tokens) ===
+settings/internal/
+settings/external/
