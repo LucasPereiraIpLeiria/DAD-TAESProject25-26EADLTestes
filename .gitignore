@@ -26,10 +26,6 @@ Thumbs.db
 *.log
 *.tmp
 
-# IDE / Local configs
-.settings/
-console.properties
-
 # === Katalon Settings (local configs, often contain tokens) ===
 settings/internal/
 settings/external/

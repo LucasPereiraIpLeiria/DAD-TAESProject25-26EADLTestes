@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Start competitive match</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>60e2b90e-e4f9-45b9-82f9-708edba8a68d</testCaseGuid>
-</TestCaseEntity>
