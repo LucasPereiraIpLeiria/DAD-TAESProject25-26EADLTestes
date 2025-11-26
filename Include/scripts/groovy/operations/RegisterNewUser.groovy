@@ -44,46 +44,43 @@ import cucumber.api.java.en.When
 
 
 
-class CompMatch {
+class RegisterNewUser {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("the application is open")
-	def the_application_is_open() {
+
+	@Given("I open the browser")
+	def openBrowser() {
 		WebUI.openBrowser('')
-
-		WebUI.navigateToUrl('http://localhost:5173/')
 	}
 
-	@And("I open the main menu dropdown from the top right")
-	def I_open_the_main_menu_dropdown_from_the_top_right() {
-		WebUI.mouseOver(findTestObject('Object Repository/Page_Vite App/button_PlayBisca_reka-navigation-menu-v-0-t_2c65dd'))
+	@When('I navigate to "(.*)"')
+	def navigateToUrl(String url) {
+		WebUI.navigateToUrl(url)
 	}
 
-	@When("I select (.*)")
-	def I_select_item(String item) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/a_Login_data-activetruefocusbg-accent data-_cc2a33'))
+	@When('I enter "(.*)" into the email field')
+	def enterEmail(String email) {
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email address_email'), email)
 	}
 
-	@And("I choose game mode (.*)")
-	def I_choose_game_mode(String gameMode) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Jogo casual, sem ranking_option-tile'))
+	@When('I enter "(.*)" into the name field')
+	def enterName(String name) {
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Name_name'), name)
 	}
 
-	@And("I choose game type (.*)")
-	def I_choose_game_type(String gameType) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Um nico jogo_option-tile'))
+	@When('I enter "(.*)" into the password field')
+	def enterPassword(String encryptedPassword) {
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), encryptedPassword)
 	}
 
-	@And("I choose variant (.*)")
-	def I_choose_game_variant(String gameVariant) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Variant_option-tile'))
+	@When('I enter "(.*)" into the nickname field')
+	def enterNickname(String nickname) {
+		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_nickname'), nickname)
 	}
 
-	@Then("the game should start successfully")
-	def the_game_should_start_successfully() {
-		WebUI.navigateToUrl('http://localhost:5173/singleplayer/competitive/match/3')
-		WebUI.delay(5)
+	@Then("I close the browser")
+	def closeBrowser() {
 		WebUI.closeBrowser()
 	}
 }
