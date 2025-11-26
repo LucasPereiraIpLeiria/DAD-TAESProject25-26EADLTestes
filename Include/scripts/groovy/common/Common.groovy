@@ -55,4 +55,9 @@ class Common {
 	def check_result(String result) {
 		WebUI.callTestCase(findTestCase('Test Cases/common/Check result'), [ ('result') : result ], FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@And("I click (.*)")
+	def I_click(String element) {
+		WebUI.click(findTestObject(element))
+	}
 }

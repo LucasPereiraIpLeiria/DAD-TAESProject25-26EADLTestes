@@ -28,5 +28,5 @@ Feature: Start Competitive Match
     And I choose game mode "Competitive"
     And I choose game type "Match"
     And I choose variant "Bisca de 3"
-    And I click "Start Game"
+    And I click Object Repository/Page_Vite App/button_Mo inicial de 9 cartas_primary-btn
     Then the game should start successfully
