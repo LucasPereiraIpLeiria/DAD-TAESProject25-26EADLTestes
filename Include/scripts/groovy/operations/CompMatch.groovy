@@ -51,7 +51,7 @@ class CompMatch {
 	@Given("the application is open")
 	def the_application_is_open() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('http://localhost:5173/')
 	}
 
@@ -64,32 +64,31 @@ class CompMatch {
 	def I_select_item(String item) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/a_Login_data-activetruefocusbg-accent data-_cc2a33'))
 	}
-	
+
 	@And("I choose game mode (.*)")
 	def I_choose_game_mode(String gameMode) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Jogo casual, sem ranking_option-tile'))
 	}
-	
+
 	@And("I choose game type (.*)")
 	def I_choose_game_type(String gameType) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Um nico jogo_option-tile'))
 	}
-	
+
 	@And("I choose variant (.*)")
 	def I_choose_game_variant(String gameVariant) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Variant_option-tile'))
 	}
-	
+
 	@And("I click (.*)")
 	def I_click_start_game(String element) {
 		WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Mo inicial de 9 cartas_primary-btn'))
 	}
-	
+
 	@Then("the game should start successfully")
 	def the_game_should_start_successfully() {
 		WebUI.navigateToUrl('http://localhost:5173/singleplayer/competitive/match/3')
 		WebUI.delay(5)
 		WebUI.closeBrowser()
 	}
-	
 }
