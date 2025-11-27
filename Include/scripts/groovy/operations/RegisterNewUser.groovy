@@ -50,9 +50,6 @@ class RegisterNewUser {
 	 */
 
 
-
-
-
 	@When('I enter "(.*)" into the email field')
 	def enterEmail(String email) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email address_email'), email)

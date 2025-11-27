@@ -6,12 +6,12 @@
    <elementGuidId>ccfea511-8915-4cb5-be5b-84134ae0558f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/nav/nav/li/a/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d65a023a-4adf-49ba-9df1-f97dc20bd9a8</webElementGuid>
+      <webElementGuid>91a49ce2-8d39-4c5d-97bc-7e3245798230</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/login</value>
-      <webElementGuid>4cfb6ae5-3ae9-4d24-8b71-fa1ed662e6ac</webElementGuid>
+      <webElementGuid>dc4b2cf6-ceeb-471a-9796-1c503e00b22b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>7963b588-0fd5-423d-a836-6be019b286c5</webElementGuid>
+      <webElementGuid>a60aab7f-1ecc-44aa-a859-026b71a9b747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/nav[@class=&quot;max-w-full p-5 flex flex-row justify-between align-middle&quot;]/nav[@class=&quot;group/navigation-menu relative flex max-w-max flex-1 items-center justify-center&quot;]/li[@class=&quot;relative&quot;]/a[@class=&quot;data-[active=true]:focus:bg-accent data-[active=true]:hover:bg-accent data-[active=true]:bg-accent/50 data-[active=true]:text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground ring-ring/10 dark:ring-ring/20 dark:outline-ring/40 outline-ring/50 [&amp;_svg:not([class*='text-'])]:text-muted-foreground flex flex-col gap-1 rounded-sm p-2 text-sm transition-[color,box-shadow] focus-visible:ring-4 focus-visible:outline-1 [&amp;_svg:not([class*='size-'])]:size-4&quot;]/a[1]</value>
-      <webElementGuid>181c85ca-03a0-4533-a991-3bcb817ed58c</webElementGuid>
+      <webElementGuid>49c9cb19-8819-4f70-81b3-32d17062b1f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/nav/nav/li/a/a</value>
-      <webElementGuid>62b540fd-438d-4d58-a292-90228599bfc3</webElementGuid>
+      <webElementGuid>91c11cf2-d3b1-47d3-abcd-4f211b58c9a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Login')]</value>
-      <webElementGuid>09ab69b7-a8b1-4ed5-a487-21c5e961c4ae</webElementGuid>
+      <webElementGuid>44eddd41-3060-4577-b0fc-9a486073a250</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='♠ PlayBisca'])[1]/following::a[2]</value>
-      <webElementGuid>4133aff9-a50c-447b-b9b9-de319a87b371</webElementGuid>
+      <webElementGuid>da345727-30a1-4fac-b14a-25ee8fc20ee1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>643554cd-db62-4dea-910a-719908f84c64</webElementGuid>
+      <webElementGuid>ecded46d-b53c-49be-9558-0265e5842708</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>db0642a0-ffec-419b-9975-99e0bb07cc65</webElementGuid>
+      <webElementGuid>f933dc95-78ae-44da-a966-540b275460b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/a</value>
-      <webElementGuid>6fef5bc2-9364-4969-9ac4-e2aef6e89a49</webElementGuid>
+      <webElementGuid>792ad543-60fa-409c-a7ec-18f65615700a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,54 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/login' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>7f06f83f-07a8-4922-ab0b-67603816c546</webElementGuid>
+      <webElementGuid>3246bb80-9ee6-48c0-91ea-6e67df0579fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/main/div/div/form/div[3]/a</value>
+      <webElementGuid>d6d0e880-aabd-4a5b-b790-4d9e77ab56ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign up')]</value>
+      <webElementGuid>646c91eb-4d27-4704-a056-0a8abfd0e2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign up']/parent::*</value>
+      <webElementGuid>55388b85-474b-4263-8545-927f3baee52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/register')]</value>
+      <webElementGuid>cf6178fc-1987-4957-94f6-115c1f735a94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>b303af95-a245-4b9b-82c7-543fd1eaba09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/register' and (text() = ' Sign up ' or . = ' Sign up ')]</value>
+      <webElementGuid>955d665d-153c-497e-ad4a-ba1b915f116a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

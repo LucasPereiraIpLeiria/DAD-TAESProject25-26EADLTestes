@@ -6,12 +6,12 @@
    <elementGuidId>e4ee7de7-55fe-4b9c-89dc-e14c50b9cf05</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.text-xs</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/nav/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-xs</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b5610448-57fc-483e-bb16-f8014c1aa3e9</webElementGuid>
+      <webElementGuid>0dc7a2dd-4842-4fb1-9070-56a6670c57ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-xs</value>
-      <webElementGuid>2ee0151a-d19e-4c02-831f-eaa78c915e09</webElementGuid>
+      <webElementGuid>0a91d943-877d-46b7-a4e5-0dc9b80528fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>    (teste) </value>
-      <webElementGuid>cd86b026-67e0-4018-9bc4-56d5357b3740</webElementGuid>
+      <webElementGuid>869cbc8a-8006-4726-8900-325f9098eb05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/nav[@class=&quot;max-w-full p-5 flex flex-row justify-between align-middle&quot;]/div[@class=&quot;align-middle text-xl&quot;]/span[@class=&quot;text-xs&quot;]</value>
-      <webElementGuid>c0b06e53-1a1e-45bb-8fe4-c0543f88a4c8</webElementGuid>
+      <webElementGuid>41802d0a-85c7-4beb-b523-132a2038a28c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/nav/div/span</value>
-      <webElementGuid>d46645e9-3ff3-4079-8d76-2fdfe6c338c7</webElementGuid>
+      <webElementGuid>424a3e2e-cbab-4809-8903-1452f2f2f671</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='♠ PlayBisca'])[1]/following::span[1]</value>
-      <webElementGuid>0eb8c8a0-abfc-47de-b4c0-9fa6e1384e38</webElementGuid>
+      <webElementGuid>6bcf7aaa-7b0f-48f4-83b2-672e7f143c72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::span[1]</value>
-      <webElementGuid>54de2035-752f-4073-b8e8-b2d960c41761</webElementGuid>
+      <webElementGuid>e399c5f5-074d-4d30-9d51-6f2fc9c5b612</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>d2a552ce-7b16-44d4-9a84-33e4cd0ae38d</webElementGuid>
+      <webElementGuid>82619c98-e5c9-499a-bc79-fd3e880df69d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '    (teste) ' or . = '    (teste) ')]</value>
-      <webElementGuid>37ea7125-fe17-4b0e-b485-a5bbe58adc06</webElementGuid>
+      <webElementGuid>e2484336-6ce2-4cd2-830a-19a404430d7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,4 +1,4 @@
-package common
+package operations
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -7,7 +7,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testcase.TestCaseFactory
@@ -17,7 +17,6 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable
 
@@ -44,31 +43,33 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-class Common {
 
+class Logout {
+	/**
+	 * The step definitions below match with Katalon sample Gherkin steps
+	 */
+	@And('I set text "(.*)" to "(.*)"')
+    def setText(String element, String text) {
+        WebUI.setText(findTestObject(element), text)
+    }
 
-	@Then("I get the result (.*)")
-	def check_result(String result) {
-		WebUI.callTestCase(findTestCase('Test Cases/common/Check result'), [ ('result') : result ], FailureHandling.STOP_ON_FAILURE)
-	}
+    @And('I set encrypted text "(.*)" to "(.*)"')
+    def setEncryptedText(String element, String encryptedText) {
+        WebUI.setEncryptedText(findTestObject(element), encryptedText)
+    }
 
-	@And('I click "(.*)"')
-	def I_click(String element) {
-		WebUI.click(findTestObject(element))
-	}
+    @Then('I wait for element "(.*)" to be visible (\\d+)')
+    def waitForElement(String element, int timeout) {
+        WebUI.waitForElementVisible(findTestObject(element), timeout)
+    }
 
-	@When('I navigate to "(.*)"')
-	def navigateToUrl(String url) {
-		WebUI.navigateToUrl(url)
-	}
+    @And('I verify element "(.*)" is present')
+    def verifyElement(String element) {
+        WebUI.verifyElementPresent(findTestObject(element), 0)
+    }
 
-	@Given("the browser is open")
-	def openBrowser() {
-		WebUI.openBrowser('')
-	}
-
-	@Then("I close the browser")
-	def closeBrowser() {
-		WebUI.closeBrowser()
+    @And('I execute javascript "(.*)"')
+	def executeJS(String script) {
+		WebUI.executeJavaScript(script, null)
 	}
 }

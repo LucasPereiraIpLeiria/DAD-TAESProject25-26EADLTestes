@@ -6,12 +6,12 @@
    <elementGuidId>0da543b2-2bdd-4cd3-9517-1e0bc866df6c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d30df186-550d-4768-887f-a759e3510fd9</webElementGuid>
+      <webElementGuid>ed4de7de-108c-445c-9dcf-4ddd014bed8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0bb98950-b134-468b-b185-e955ffe6c22a</webElementGuid>
+      <webElementGuid>3e7be7d8-ac61-4368-b7d4-7d8260fca7a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive</value>
-      <webElementGuid>8550bb50-3764-485c-abba-2da8322259a0</webElementGuid>
+      <webElementGuid>31ef906a-fc05-40cc-ad51-d15c36704b18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>4bb81a79-b801-4db2-9da5-d4367a06114b</webElementGuid>
+      <webElementGuid>e3619f66-dcc2-453d-86c2-722aecc2de08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>44eafa24-61fd-4a0b-b121-c44585f34b45</webElementGuid>
+      <webElementGuid>88dcd2ae-dcfa-4fa5-a479-b8b0232a23d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>b06cbbea-fb36-4f16-a9fe-a77cfe484809</webElementGuid>
+      <webElementGuid>c4457b0d-c20a-4543-b2e5-49c470c36ce8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;name&quot;)</value>
-      <webElementGuid>60c9c728-f0b8-4ec7-af2c-7d921a5087b8</webElementGuid>
+      <webElementGuid>8e7144cf-9068-4a02-b175-06b449878f07</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='name']</value>
-      <webElementGuid>a20cce91-4b01-4755-b84b-02f5acd1343c</webElementGuid>
+      <webElementGuid>79e6fe58-8eec-4430-9705-9f8b408fe654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/div/form/div/div/div/div[2]/input</value>
-      <webElementGuid>811fbf6e-60a9-4d5b-9b0b-3016acd1f9e3</webElementGuid>
+      <webElementGuid>4925a688-29c7-4787-999a-6639751c7e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>d37dd8a7-a9b5-4e0b-960b-fc36733c0736</webElementGuid>
+      <webElementGuid>b0d25f6d-94d0-4be3-8f6a-f1bb57f921cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'name' and @type = 'text']</value>
-      <webElementGuid>c66bffff-8399-49c9-8d41-ba1f316feb98</webElementGuid>
+      <webElementGuid>3ce34216-d325-4ac3-ada1-262a07ba6cba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
