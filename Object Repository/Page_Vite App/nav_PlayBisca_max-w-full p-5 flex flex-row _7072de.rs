@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_PlayBisca_max-w-full p-5 flex flex-row _7072de</name>
+   <tag></tag>
+   <elementGuidId>4a5f723e-1ddb-4d85-b628-d0f4cb266007</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/nav</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nav.max-w-full.p-5.flex.flex-row.justify-between.align-middle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>bc642d70-16d6-4e43-867c-182b3ff00bbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>max-w-full p-5 flex flex-row justify-between align-middle</value>
+      <webElementGuid>1e965ecd-ab71-4704-9298-709ea847cd27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>♠ PlayBiscaGamesLogin</value>
+      <webElementGuid>007b006f-e20d-412b-a784-d4e03a8e456a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/nav[@class=&quot;max-w-full p-5 flex flex-row justify-between align-middle&quot;]</value>
+      <webElementGuid>62a13795-477e-4097-91d3-9c1b0c4a87a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/nav</value>
+      <webElementGuid>d273e41f-4353-48db-b190-ee786ff9ecdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav</value>
+      <webElementGuid>a9af6de4-62a7-4a30-9dd5-b7a034dadfdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[(text() = '♠ PlayBiscaGamesLogin' or . = '♠ PlayBiscaGamesLogin')]</value>
+      <webElementGuid>5ccbb65e-2a84-4b9b-806f-6994db4d0850</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

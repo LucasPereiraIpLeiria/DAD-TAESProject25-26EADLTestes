@@ -6,12 +6,12 @@
    <elementGuidId>8f0fc629-07a0-41b1-b965-f133a973d5fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#nickname</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='nickname']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nickname</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2b0f719d-7042-4b1a-a7e0-a15f28a354a9</webElementGuid>
+      <webElementGuid>78863d1d-2589-4ba1-98b6-6fad3cd28945</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e76b6a58-eba4-48ad-a55b-f48c4e86e1b3</webElementGuid>
+      <webElementGuid>fcb0ff38-6854-4e33-8cf9-40c272c9810a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive</value>
-      <webElementGuid>8e595192-3ce2-4c78-afee-68abd51e9337</webElementGuid>
+      <webElementGuid>79a9bfc3-63d3-47af-8550-2d921446d6a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nickname</value>
-      <webElementGuid>2e916459-4453-461d-80c2-07e0468ab78b</webElementGuid>
+      <webElementGuid>595b294f-ec2c-40c7-bf4d-5d9257f3b0be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9b239b1d-c9d0-4a77-9b3e-4d831006aa9f</webElementGuid>
+      <webElementGuid>b3b8f116-890f-4068-a53d-e7b4a00a7d99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>042545ea-7093-4a53-bc12-fe29b7072053</webElementGuid>
+      <webElementGuid>c7b041ca-825d-488c-9474-19e0d8a9a038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nickname&quot;)</value>
-      <webElementGuid>4da6fffe-6318-4c65-a8ba-4014ea3f63d2</webElementGuid>
+      <webElementGuid>36db408d-23c6-4274-9e16-7a8ec6223aea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='nickname']</value>
-      <webElementGuid>911c183d-60a1-4f7e-b549-8a372d054be7</webElementGuid>
+      <webElementGuid>ad354d5d-385b-443b-bf7c-0fc9d5e5b917</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/div/form/div/div[3]/input</value>
-      <webElementGuid>965566cd-324d-4407-96ea-3bbb58f6cc35</webElementGuid>
+      <webElementGuid>e0128bed-2690-4be1-8972-39bb7139d0f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>5b29798c-1dad-4958-bdc6-0370cb3d1350</webElementGuid>
+      <webElementGuid>fa94cb52-365a-4390-8af5-b17239c4d7cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'nickname' and @type = 'text']</value>
-      <webElementGuid>5414ceeb-5efc-4106-8b04-e7e89b625244</webElementGuid>
+      <webElementGuid>0b1fb5b3-53e4-498b-b491-41ec40c6ccb7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

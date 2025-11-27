@@ -6,12 +6,12 @@
    <elementGuidId>73eea428-5a8e-48a4-afcd-a249903d6716</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.text-center.text-sm > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/main/div/div/form/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.text-sm > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1cf987b9-a349-494b-bedd-0ad9bee0a9e0</webElementGuid>
+      <webElementGuid>0b471700-30a3-4a72-ab46-842eb9ad0e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register</value>
-      <webElementGuid>fca2da7c-d308-4f30-b69e-f434185ad9a8</webElementGuid>
+      <webElementGuid>0760a67b-770c-4412-9ed1-011ac8210428</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Sign up </value>
-      <webElementGuid>f77a4534-ab0b-42b1-8db3-3afc4c7f83be</webElementGuid>
+      <webElementGuid>b860fd77-7c38-4908-95b6-bbb149203715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[1]/main[1]/div[@class=&quot;flex min-h-screen items-center justify-center bg-gray-50 px-4 py-12 sm:px-6 lg:px-8&quot;]/div[@class=&quot;w-full max-w-md space-y-8&quot;]/form[@class=&quot;mt-8 space-y-6&quot;]/div[@class=&quot;text-center text-sm&quot;]/a[1]</value>
-      <webElementGuid>932e6246-1a76-40bc-b75d-bf0b5e0f363f</webElementGuid>
+      <webElementGuid>2d9ec2b1-b1e9-46b8-ba4e-d5eeadeef3a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/main/div/div/form/div[3]/a</value>
-      <webElementGuid>66aceeff-2094-45db-a731-499a099af617</webElementGuid>
+      <webElementGuid>30d8131f-aabd-4320-8bb1-8489fd501f47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign up')]</value>
-      <webElementGuid>add99699-18dd-4825-8724-4b5299e47a25</webElementGuid>
+      <webElementGuid>bec59dae-98a9-42b5-8992-25fef4ef3b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign up']/parent::*</value>
-      <webElementGuid>1af4af3a-d44b-4033-a1df-9aa9aac9147c</webElementGuid>
+      <webElementGuid>173faa7a-3628-4291-bedd-537fb419b43c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/register')]</value>
-      <webElementGuid>85f136cc-6047-4b14-ad85-bc30a46fce94</webElementGuid>
+      <webElementGuid>cd7ade32-58cb-407b-85cb-69e4567c0de0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>3028fc06-5370-4f4a-a13a-224e00118297</webElementGuid>
+      <webElementGuid>79e99a00-9785-4a0c-8807-97903422f97c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,46 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register' and (text() = ' Sign up ' or . = ' Sign up ')]</value>
-      <webElementGuid>a2e49339-4e0a-45bd-b0c7-24c659fb67da</webElementGuid>
+      <webElementGuid>2a89159f-164b-411a-af3b-7a80c3937887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/nav/nav/li/a/a</value>
+      <webElementGuid>04ef980a-20fc-457e-acfa-5bf6e55fb84e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Logout')]</value>
+      <webElementGuid>11e42458-51bb-4501-acdb-62f632d6d1ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>0d83418c-1ffd-4c3a-86d6-77f9489b3ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/a</value>
+      <webElementGuid>54f9f7d0-dc69-4e9b-a3e5-b897798b6f65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>111e2c5a-a511-49bd-8819-e0985abf9733</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

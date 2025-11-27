@@ -17,29 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Open browser and navigate
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://localhost:5173/')
 
+// Login
 WebUI.click(findTestObject('Object Repository/Page_Vite App/a'))
-
-WebUI.click(findTestObject('Object Repository/Page_Vite App/a_1'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email address_email'), 'test@example.com')
-
-WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Name_name'), 'teste')
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
-
-WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_nickname'), 'teste')
-
-WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Nickname_inline-flex items-center ju_ee67eb'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Email address_email'), 'test@example.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite App/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
-
 WebUI.click(findTestObject('Object Repository/Page_Vite App/button_Password_inline-flex items-center ju_559f66'))
 
-WebUI.closeBrowser()
+// Wait for dashboard element
+WebUI.waitForElementVisible(
+    findTestObject('Object Repository/Page_Vite App/div_(teste)_flex items-center text-xl space-x-1'), 
+    10
+)
+WebUI.verifyElementPresent(
+    findTestObject('Object Repository/Page_Vite App/div_(teste)_flex items-center text-xl space-x-1'), 
+    0
+)
 
+// Click Logout reliably (Vue @click.prevent)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Vite App/a_Logout'), 10)
+// Use JS click to trigger Vue handler
+WebUI.executeJavaScript("document.evaluate(\"//nav//a[text()='Logout']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click()", null)
+
+
+// Close browser
+WebUI.closeBrowser()

@@ -6,12 +6,12 @@
    <elementGuidId>a66e0bc1-063a-400f-8196-61e4b4c84df1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.flex.items-center.text-xl.space-x-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/nav/nav/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.items-center.text-xl.space-x-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2da723d3-1b75-4c47-9d48-cec3e04a9d5b</webElementGuid>
+      <webElementGuid>adad61a4-581a-4f5b-b227-e78d11f74387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center text-xl space-x-1</value>
-      <webElementGuid>5cc22845-0de0-4f86-858a-b1bf0b3a3f91</webElementGuid>
+      <webElementGuid>521fd539-86a5-470e-8a4c-4884c92807d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>100000</value>
-      <webElementGuid>1b9b6fbb-599d-46d9-8fb1-0e513f72d9be</webElementGuid>
+      <webElementGuid>850bf046-ddad-42f0-ae4d-b5fdb7b45507</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/nav[@class=&quot;max-w-full p-5 flex flex-row justify-between align-middle&quot;]/nav[@class=&quot;group/navigation-menu relative flex max-w-max flex-1 items-center justify-center&quot;]/div[@class=&quot;flex items-center text-xl space-x-1&quot;]</value>
-      <webElementGuid>3d791890-87e2-4ba1-930d-074b45815418</webElementGuid>
+      <webElementGuid>a348e352-6c56-42d5-91b0-401c0f547009</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/nav/nav/div</value>
-      <webElementGuid>8ccbe5fb-7b46-4093-b156-27bb404cd22e</webElementGuid>
+      <webElementGuid>84013183-8cd2-4c08-aea0-290ee76e76b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='♠ PlayBisca'])[1]/following::div[1]</value>
-      <webElementGuid>64c4e2eb-47ad-42d5-bb22-bcc744cab185</webElementGuid>
+      <webElementGuid>9dd21d70-b94e-45e2-ab78-268190e2caf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::div[3]</value>
-      <webElementGuid>9a19ab4e-36dd-4333-af48-91fa27b956bb</webElementGuid>
+      <webElementGuid>0082f354-cb08-471a-86c8-26db5c524de1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/nav/div</value>
-      <webElementGuid>f97a7f9b-fb82-4d66-8c4f-58afed9819d2</webElementGuid>
+      <webElementGuid>7e869221-f5a1-4daf-b031-14a76700dd37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '100000' or . = '100000')]</value>
-      <webElementGuid>22de3203-0d56-4e64-b120-e57c9091d1f5</webElementGuid>
+      <webElementGuid>ee422392-2070-4832-a301-72fe7eebb646</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
