@@ -22,11 +22,12 @@ Feature: Start Competitive Match
 
   @tag1
   Scenario: Launch game and begin competitive Bisca de 3 match
-    Given the application is open
+    Given the browser is open
+    When I navigate to "http://localhost:5173/"
     And I open the main menu dropdown from the top right
     When I select a_Login_data-activetruefocusbg-accent data-_cc2a33
     And I choose game mode "Competitive"
     And I choose game type "Match"
     And I choose variant "Bisca de 3"
-    And I click Object Repository/Page_Vite App/button_Mo inicial de 9 cartas_primary-btn
+    And I click "Object Repository/Page_Vite App/button_Mo inicial de 9 cartas_primary-btn"
     Then the game should start successfully

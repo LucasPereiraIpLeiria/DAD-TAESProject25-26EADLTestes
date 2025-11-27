@@ -46,18 +46,29 @@ import cucumber.api.java.en.When
 
 class Common {
 
-	@Given("The Calculator page is loaded successfully")
-	def load_calculator_page() {
-		WebUI.callTestCase(findTestCase("Test Cases/common/The Calculator page is loaded successfully"), [:], FailureHandling.STOP_ON_FAILURE)
-	}
 
 	@Then("I get the result (.*)")
 	def check_result(String result) {
 		WebUI.callTestCase(findTestCase('Test Cases/common/Check result'), [ ('result') : result ], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@And("I click (.*)")
+
+	@And('I click "(.*)"')
 	def I_click(String element) {
 		WebUI.click(findTestObject(element))
+	}
+
+	@When('I navigate to "(.*)"')
+	def navigateToUrl(String url) {
+		WebUI.navigateToUrl(url)
+	}
+
+	@Given("the browser is open")
+	def openBrowser() {
+		WebUI.openBrowser('')
+	}
+	
+	@Then("I close the browser")
+	def closeBrowser() {
+		WebUI.closeBrowser()
 	}
 }

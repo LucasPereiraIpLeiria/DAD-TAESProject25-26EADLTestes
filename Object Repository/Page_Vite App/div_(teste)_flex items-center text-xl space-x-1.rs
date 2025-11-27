@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_(teste)_flex items-center text-xl space-x-1</name>
+   <tag></tag>
+   <elementGuidId>a66e0bc1-063a-400f-8196-61e4b4c84df1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.items-center.text-xl.space-x-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/nav/nav/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2da723d3-1b75-4c47-9d48-cec3e04a9d5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center text-xl space-x-1</value>
+      <webElementGuid>5cc22845-0de0-4f86-858a-b1bf0b3a3f91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>100000</value>
+      <webElementGuid>1b9b6fbb-599d-46d9-8fb1-0e513f72d9be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/nav[@class=&quot;max-w-full p-5 flex flex-row justify-between align-middle&quot;]/nav[@class=&quot;group/navigation-menu relative flex max-w-max flex-1 items-center justify-center&quot;]/div[@class=&quot;flex items-center text-xl space-x-1&quot;]</value>
+      <webElementGuid>3d791890-87e2-4ba1-930d-074b45815418</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/nav/nav/div</value>
+      <webElementGuid>8ccbe5fb-7b46-4093-b156-27bb404cd22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='♠ PlayBisca'])[1]/following::div[1]</value>
+      <webElementGuid>64c4e2eb-47ad-42d5-bb22-bcc744cab185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::div[3]</value>
+      <webElementGuid>9a19ab4e-36dd-4333-af48-91fa27b956bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/nav/div</value>
+      <webElementGuid>f97a7f9b-fb82-4d66-8c4f-58afed9819d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '100000' or . = '100000')]</value>
+      <webElementGuid>22de3203-0d56-4e64-b120-e57c9091d1f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
