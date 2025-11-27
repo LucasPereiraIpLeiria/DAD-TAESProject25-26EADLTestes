@@ -48,12 +48,6 @@ class CompMatch {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("the application is open")
-	def the_application_is_open() {
-		WebUI.openBrowser('')
-
-		WebUI.navigateToUrl('http://localhost:5173/')
-	}
 
 	@And("I open the main menu dropdown from the top right")
 	def I_open_the_main_menu_dropdown_from_the_top_right() {

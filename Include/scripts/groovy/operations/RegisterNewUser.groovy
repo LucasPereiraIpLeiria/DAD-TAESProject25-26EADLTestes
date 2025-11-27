@@ -49,15 +49,9 @@ class RegisterNewUser {
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
 
-	@Given("I open the browser")
-	def openBrowser() {
-		WebUI.openBrowser('')
-	}
 
-	@When('I navigate to "(.*)"')
-	def navigateToUrl(String url) {
-		WebUI.navigateToUrl(url)
-	}
+
+
 
 	@When('I enter "(.*)" into the email field')
 	def enterEmail(String email) {
@@ -77,10 +71,5 @@ class RegisterNewUser {
 	@When('I enter "(.*)" into the nickname field')
 	def enterNickname(String nickname) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite App/input_Nickname_nickname'), nickname)
-	}
-
-	@Then("I close the browser")
-	def closeBrowser() {
-		WebUI.closeBrowser()
 	}
 }
